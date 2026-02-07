@@ -79,20 +79,19 @@ header h1 {
 }
 
 /* Chat Overlay */
-.chat-container {
+#chat-overlay {
     position: absolute;
-    top: 0;
     left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     padding: 1rem;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    /* Bubbles rise from bottom or sit at bottom? Let's stack from bottom */
-    pointer-events: none;
-    /* Let clicks pass through to penguins if needed later */
+    overflow-y: auto;
+    display: block;
+    background: transparent;
+    border-radius: 12px;
+    pointer-events: auto;
 }
 
 /* Input Area */
