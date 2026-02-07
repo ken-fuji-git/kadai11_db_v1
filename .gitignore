@@ -1,0 +1,23 @@
+.DS_Store
+.vscode
+
+# 設定情報
+config.php
+_config.php
+.env
+.env.local
+.env.sakura
+
+
+# Materials：パワポやメモなど
+Materials/編集/Wireframe.pptx
+Materials/編集/~$Wireframe.pptx
+Materials/memo_account.txt
+Materials/list画面.pptx
+Materials/memo.txt
+
+# 試行錯誤データ
+assets/rose_NG.svg
+assets/rose.png
+assets/rose1.svg
+assets/rose1のコピー.svg
